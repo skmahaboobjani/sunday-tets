@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap Menu Example</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sample Bootstrap Menu application">
+  <meta name="author" content="John M. Wargo">
+  <!-- Bootstrap CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+  <style>
+      .bg-primary {
+    background-color: yellow;
+}
+  </style>
+  
+
+</head>
+
+<body>
+    <section class="bg-primary" id="about">
+
+    
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#about">Bootstrap Menu Example</a>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a class="menuLink" href="#menu1"><span class="glyphicon glyphicon-compressed"></span> Menu 1</a>
+          </li>
+          <li><a class="menuLink" href="#menu2"><span class="glyphicon glyphicon-tasks"></span> Menu 2</a>
+          </li>
+          <li><a class="menuLink" href="#menu3"><span class="glyphicon glyphicon-play-circle"></span> Menu 3</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="menuLink" href="#settings"><span class="glyphicon glyphicon-cog"></span> Settings</a>
+          </li>
+          <li class="active"><a class="menuLink" href="#about"><span class="glyphicon glyphicon-star-empty"></span> About</a>
+          </li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <!----------------------------------------------------------------------->
+
+  <!-- Begin page content -->
+  <div class="container">
+    <div class="content" id="menu1" hidden="true">
+      <div class="page-header">
+        <h1>Menu 1</h1>
+      </div>
+      <p>This is some content for the Menu 1 page.</p>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+    <div class="content" id="menu2" hidden="true">
+      <div class="page-header">
+        <h1>Menu 2</h1>
+      </div>
+      <p>This is some content for the Menu 2 page.</p>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+    <div class="content" id="menu3" hidden="true">
+      <div class="page-header">
+        <h1>Menu 3</h1>
+      </div>
+      <p>This is some content for the Menu 3 page.</p>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+    <div class="content" id="settings" hidden="true">
+      <div class="page-header">
+        <h1>Settings</h1>
+      </div>
+      <p>This is some content for the settings page.</p>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+    <div class="content" id="about">
+      <div class="page-header">
+        <h1>Bootstrap Menu Example</h1>
+      </div>
+      <p class="lead"> </p>
+      <p>Is Bootstrap good or bad?
+        Bootstrap is great for quickly throwing together a prototype or internal tool, but it is not intended for use on a production website (unless you want it to look like a Bootstrap website... I guess). Bootstrap's way of doing things means fast development, but it makes zero sense for a uniquely designed website</p>
+      <p>Bootstrapping describes a situation in which an entrepreneur starts a company with little capital, relying on money other than outside investments. An individual is said to be bootstrapping when they attempt to found and build a company from personal finances or the operating revenues of the new company.</p>
+      <h2>dis advatanges </h2>
+      <p>Bootstrap is a responsive and mobile-ready grid based framework which helps  professional designers to develop a website very efficiently. It is the most popular front end framework developed by twitter and provides a free collection of tools to create websites as well as web applications. It is a toolkit which comes with HTML/HTML5, CSS & JavaScript  conventions  and it helps to develop responsive websites that fit mobile phones and smartphone devices. Bootstrap technology is very valuable in this field as it makes front-end web development much quicker and painless.</p>
+      <h2>advantages</h2>
+      <p>Fewer Cross browser bugs
+        A consistent framework that supports major of all browsers and CSS compatibility fixes
+        Lightweight and customizable
+        Responsive structures and styles
+        Several JavaScript plugins using the jQuery
+        Good documentation and community support
+        Loads of free and professional templates, WordPress themes and plugins
+        Great grid system</p>
+      <hr />
+      <p>mahaboob jani</p>
+    </div>
+
+    <!----------------------------------------------------------------------->
+
+  </div>
+  <div class="footer">
+    <div class="container">
+
+      </p>
+    </div>
+  </div>
+    </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+  <script>
+    //Call our init function to get things going...
+    app.initialize();
+
+  </script>
+</body>
+
+</html>
